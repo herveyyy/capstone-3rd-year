@@ -1,7 +1,7 @@
 import React from "react";
 
 const Manuscript = () => {
-  return <div>Manuscript</div>;
+  return <div className="">Manuscript</div>;
 };
 
 export default Manuscript;
