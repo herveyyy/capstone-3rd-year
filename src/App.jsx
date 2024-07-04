@@ -12,13 +12,15 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/admin/" element={<AdminDashboard />} />
-        <Route path="/admin/manuscript" element={<AdminManuscript />} />
-      </Routes>
+      <div className="pt-24">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/admin/" element={<AdminDashboard />} />
+          <Route path="/admin/manuscript" element={<AdminManuscript />} />
+        </Routes>
+      </div>
     </div>
   );
 }
